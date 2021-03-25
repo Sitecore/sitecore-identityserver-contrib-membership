@@ -32,7 +32,7 @@ var releaseNotesPath    = rootPath.CombineWithFilePath("CHANGELOG.md");
 // project specific
 var solutionFile        = srcDir + File("IdentityServer.Contrib.Membership.sln");
 var gitHubRepositoryOwner = "Sitecore";
-var gitHubRepositoryName = "sitecore-identityserver-contrib-membershi";
+var gitHubRepositoryName = "sitecore-identityserver-contrib-membership";
 
 var isLocalBuild = BuildSystem.IsLocalBuild;
 var isPullRequest = BuildSystem.AppVeyor.Environment.PullRequest.IsPullRequest;
