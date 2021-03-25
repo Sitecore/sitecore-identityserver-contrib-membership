@@ -1,4 +1,4 @@
-# IdentityServer4.Contrib.Membership
+# Sitecore.IdentityServer4.Contrib.Membership
 
 [![Build status](https://ci.appveyor.com/api/projects/status/4ifi93bfr7rl9p3l/branch/develop?svg=true)](https://ci.appveyor.com/project/sc-alexandernaumchenkov/sitecore-identityserver-contrib-membership/branch/develop)
 
@@ -7,7 +7,7 @@ Identity Server is a framework and doesn't provide implementations of user data 
 If you have an existing ASP.NET 2.0 Membership Database containing user data for existing systems then you can install the following package:
 
 ```powershell
-PM> Install-Package IdentityServer4.Contrib.Membership
+PM> Install-Package Sitecore.IdentityServer4.Contrib.Membership
 ```
 
 To add the plugin, add the following to the OWIN startup class of your IdentityServer instance:
