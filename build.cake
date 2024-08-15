@@ -99,7 +99,7 @@ Task("Build")
             .WithProperty("Version", semVersion)
             .WithProperty("PackageVersion", gitVersionResults.MajorMinorPatch)
             .WithProperty("PackageOutputPath", MakeAbsolute(nugetPackageDir).FullPath)
-            .UseToolVersion(MSBuildToolVersion.VS2019)
+            .UseToolVersion(MSBuildToolVersion.VS2022)
             .SetNodeReuse(false);
 
             // setup binary logging for solution to artifacts dir
