@@ -1,7 +1,5 @@
 # Sitecore.IdentityServer4.Contrib.Membership
 
-[![Build status](https://ci.appveyor.com/api/projects/status/4ifi93bfr7rl9p3l/branch/develop?svg=true)](https://ci.appveyor.com/project/sc-alexandernaumchenkov/sitecore-identityserver-contrib-membership/branch/develop)
-
 ## ASP.NET 2.0 Membership Database as Identity Server User Store
 Identity Server is a framework and doesn't provide implementations of user data sources out of the box.
 If you have an existing ASP.NET 2.0 Membership Database containing user data for existing systems then you can install the following package:
