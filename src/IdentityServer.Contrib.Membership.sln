@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29806.167
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B48FB59C-14FC-4A91-9F1F-A26EB49FFABD}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4.Contrib.Membership.IdsvrDemo", "samples\IdentityServer4.Contrib.Membership.IdsvrDemo\IdentityServer4.Contrib.Membership.IdsvrDemo.csproj", "{7B095426-9FEC-471C-9696-430A51485CD4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4.Contrib.Membership.ClientDemo", "samples\IdentityServer4.Contrib.Membership.ClientDemo\IdentityServer4.Contrib.Membership.ClientDemo.csproj", "{A2A7153E-9E2A-46E9-A8C1-131B5E1AC590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer4.Contrib.Membership.MetaPackage", "IdentityServer4.Contrib.Membership.MetaPackage\IdentityServer4.Contrib.Membership.MetaPackage.csproj", "{DC831BDE-B176-4BE6-BCA0-D80411975EB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A2A7153E-9E2A-46E9-A8C1-131B5E1AC590}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2A7153E-9E2A-46E9-A8C1-131B5E1AC590}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2A7153E-9E2A-46E9-A8C1-131B5E1AC590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC831BDE-B176-4BE6-BCA0-D80411975EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC831BDE-B176-4BE6-BCA0-D80411975EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC831BDE-B176-4BE6-BCA0-D80411975EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC831BDE-B176-4BE6-BCA0-D80411975EB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{A50141E5-D4A3-4056-BEF9-7D2AB76E33DD} = {B48FB59C-14FC-4A91-9F1F-A26EB49FFABD}
 		{7B095426-9FEC-471C-9696-430A51485CD4} = {B32D51A2-39BF-4468-A80F-49A178D4AAC3}
 		{A2A7153E-9E2A-46E9-A8C1-131B5E1AC590} = {B32D51A2-39BF-4468-A80F-49A178D4AAC3}
+		{DC831BDE-B176-4BE6-BCA0-D80411975EB2} = {B48FB59C-14FC-4A91-9F1F-A26EB49FFABD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9781470E-EFA6-4282-A271-753C6C005115}

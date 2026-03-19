@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Description>IdentityServer4.Contrib.Membership.MetaPackage Class Library</Description>
+    <Configurations>Debug;Release</Configurations>
+    <RootNamespace>IdentityServer4.Contrib.Membership</RootNamespace>
+    <PackageId>Sitecore.IdentityServer4.Contrib.Membership.MetaPackage</PackageId>
+    <PackageTags>IdentityServer</PackageTags>
+    <NoPackageAnalysis>true</NoPackageAnalysis>
+    <IncludeSymbols>false</IncludeSymbols>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IdentityServer4.Contrib.Membership\IdentityServer4.Contrib.Membership.csproj" />
+  </ItemGroup>
+
+</Project>

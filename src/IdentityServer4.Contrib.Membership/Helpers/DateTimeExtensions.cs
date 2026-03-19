@@ -1,7 +1,7 @@
 ﻿namespace IdentityServer4.Contrib.Membership.Helpers
 {
     using System;
-    using IdentityModel;
+    using Duende.IdentityModel;
 
     public static class DateTimeExtensions
     {
@@ -12,7 +12,8 @@
 
         public static long ToUtcEpoch(this DateTime localDateTime)
         {
-            return localDateTime.ToUtc().ToEpochTime();
+            DateTimeOffset dateTimeOffset = new DateTimeOffset(localDateTime.ToUtc());
+            return dateTimeOffset.ToUnixTimeSeconds();
         }
     }
 }

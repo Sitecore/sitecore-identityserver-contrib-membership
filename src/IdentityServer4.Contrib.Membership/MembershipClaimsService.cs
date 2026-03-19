@@ -9,7 +9,7 @@ namespace IdentityServer4.Contrib.Membership
     using System.Security.Claims;
     using System.Threading.Tasks;
     using Helpers;
-    using IdentityModel;
+    using Duende.IdentityModel;
     using Interfaces;
 
     public class MembershipClaimsService : IMembershipClaimsService
@@ -42,7 +42,7 @@ namespace IdentityServer4.Contrib.Membership
                 new Claim(JwtClaimTypes.Email, user.Email),
 
                 new Claim(JwtClaimTypes.IdentityProvider, options.IdentityProvider),
-                new Claim(JwtClaimTypes.AuthenticationTime, DateTime.UtcNow.ToEpochTime().ToString()),
+                new Claim(JwtClaimTypes.AuthenticationTime, DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString()),
 
                 new Claim(MembershipClaimTypes.AccountCreated, user.AccountCreated.ToUtcEpoch().ToString()),
                 new Claim(MembershipClaimTypes.LastActivity, user.LastActivity.ToUtcEpoch().ToString()),

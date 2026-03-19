@@ -3,7 +3,7 @@
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 using System.Collections.Generic;
 using Duende.IdentityServer;
-using IdentityModel;
+using Duende.IdentityModel;
 using Duende.IdentityServer.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
